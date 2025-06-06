@@ -1,0 +1,34 @@
+
+*{
+    margin: 0;
+    border: 0;
+}
+:root{
+    --cor-vermelha: #E41717;
+    --cor-branca: #ffffff;
+    --cor-preta: black;
+    --cor-footer: #C9C9C9;
+}
+@media screen and (max-width: 393px) {
+    body{
+        height: 851;
+    }
+    header{
+        height: 90;
+        width: 393;
+        background-color: var(--cor-vermelha);
+    }
+    #foto_perfil{
+        width: 40px;
+        height: 40px;
+
+    }
+    #logo{
+        width: 36.21px;
+        height: 32px;
+    }
+    #menu{
+        width: 24px;
+        height: 21px;
+    }
+}
