@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    border: 0;
+}
+:root{
+    --cor-vermelha: #E41717;
+    --cor-branca: #ffffff;
+    --cor-preta: black;
+    --cor-footer: #C9C9C9;
+}
+@media screen and (max-width: 393px) {
+    body{
+        height: 852px;
+        font-family: 'Kanit', sans-serif;
+    }
+    header{
+        height: 90px;
+        width: 393px;
+        background-color: var(--cor-vermelha);
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        
+    }
+    #foto_perfil{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        bottom: 12px;
+        left: 12px;
+
+    }
+    #logo{
+        width: 36.21px;
+        height: 32px;
+        position: relative;
+        bottom: 13px;
+        right: 5px;
+    }
+    #menu{
+        width: 24px;
+        height: 21px;
+        position: relative;
+        bottom: 12px;
+        right: 12px;
+    }
+    #trem{
+        width: 393px;
+        height: 190px;
+
+    }
+    #dinheiros{
+        width: 393px;
+        height: 111px;
+        background-color: var(--cor-vermelha);
+        display: flex;
+        align-items: center;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        bottom: 7px;
+    }
+    #saldo{
+        width: 288px;
+        height: 71px;
+        display: flex;
+        background-color: #ffffff;
+        border-radius: 7px;
+        position: relative;
+
+
+        
+    }
+    #rs p{
+        font-size: 18px;
+    }
+    #rs{
+        position: relative;
+        top: 3px;
+        display: flex;
+        gap: 27px;
+    }
+    #saldors{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    #olhoimg{
+        width: 24px;
+        height: 24px;
+    }
+    .mets{
+        color: #FFFFFF; 
+        font-size: 15px;
+        position: relative;
+        bottom: 1px;
+
+    }
+    #barrapreta{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 20px;
+        
+    }
+    #depositar{
+        width: 148px;
+        height: 26px;
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        background-color: black;
+        width: 148px;
+        height: 26px;
+    }
+    #deposit{
+        position: relative;
+        left: 7px;
+    }
+    #depositimg{
+        position: relative;
+        left: 4px;
+
+    }
+    #comprar{
+        width: 148px;
+        height: 26px;
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        width: 148px;
+        height: 26px;
+
+    }
+    .imgblocopreto{
+        position: relative;
+        right: 3px;
+
+        width: 18px;
+        height: 18px;
+    }
+    .imagenssec{
+        position: relative;
+        left: 15px;
+        width: 35px;
+        height: 35px;
+        top: 8px;
+
+    }
+    .sectiontodo{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .opcoessec{
+        display:inline-flex;
+        gap: 27px;
+
+    }
+    .letrassec{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .letrasvermelhas{
+        color: #E41717;
+
+
+    }
+    .descricao{
+        color: #A7A4A4;
+
+
+    }
+    .imagemseta{
+        position:relative;
+        right: 10px;
+        width: 16px;
+        height: 16px;
+
+    }
+    .barras{
+        position: relative;
+        left: 15px;
+        background-color: #A7A4A4;
+        width: 358px;
+        height: 1px;
+    }
+
+}
