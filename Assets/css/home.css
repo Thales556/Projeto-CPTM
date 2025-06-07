@@ -156,6 +156,8 @@
 
     }
     .sectiontodo{
+        width: 393px;
+        height: 365px;
         display: flex;
         flex-direction: column;
 
@@ -172,6 +174,8 @@
     }
     .letrasvermelhas{
         color: #E41717;
+        position: relative;
+        top: 5px;
 
 
     }
@@ -187,6 +191,10 @@
         height: 16px;
 
     }
+    #seta1{  position: relative; left: 35px; top: 15px;}
+    #seta2{ position: relative; left: 135px; top: 15px;}
+    #seta3{ position: relative; left: 135px; top: 15px;}
+
     .barras{
         position: relative;
         left: 15px;
@@ -194,5 +202,29 @@
         width: 358px;
         height: 1px;
     }
+    footer{
+        position: relative;
+        background-color: #c9c9c9;
+        width: 393px;
+        height: 95px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .imgfooter{
+        
+        
+        width: 40px;
+        height: 40px;
+    }
+    .letrasfooter{
+        font-size: 15px;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 5px;
+    }
+    #imgfooter1{position: relative;}
+    #imgfooter2{position: relative; left: 10px; top: 2px;}
+    #imgfooter3{position: relative; top: 15px;}
 
 }
