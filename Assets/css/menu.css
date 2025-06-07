@@ -14,7 +14,7 @@ body{
     height: 852px;
     position: absolute;
     right: 0;
-            font-family: 'Kanit', sans-serif;
+    
 
 }
 header{
@@ -39,6 +39,8 @@ header{
 }
 #nome{
     padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Jockey One', sans-serif;
 
 }
 .imagensopcoes{
@@ -59,7 +61,7 @@ header{
 .letras{
     position: relative;
     left: 5px;
-
+    font-family: 'Kanit', sans-serif;
     font-size: 18px;
     color: black;
 
