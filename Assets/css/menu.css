@@ -9,26 +9,63 @@
     --cor-preta: black;
     --cor-footer: #C9C9C9;
 }
-@media screen and (max-width: 393px) {
-    body{
-        height: 851;
-    }
-    header{
-        height: 90;
-        width: 393;
-        background-color: var(--cor-vermelha);
-    }
-    #foto_perfil{
-        width: 40px;
-        height: 40px;
+body{
+    width: 245px;
+    height: 852px;
+    position: absolute;
+    right: 0;
+            font-family: 'Kanit', sans-serif;
 
-    }
-    #logo{
-        width: 36.21px;
-        height: 32px;
-    }
-    #menu{
-        width: 24px;
-        height: 21px;
-    }
+}
+header{
+    display: flex;
+    align-items: flex-end;
+    width: 245px;
+    height: 90px;
+    background-color: white;
+
+
+}
+#itensheader{
+    padding: 12px;
+    display: flex;
+    align-items: flex-end;
+
+}
+#imgheader{
+    width: 40px;
+    height: 40px;
+
+}
+#nome{
+    padding-left: 10px;
+
+}
+.imagensopcoes{
+    width: 25px;
+    height: 25px;
+}
+.opcoes{
+    width: 245px;
+    height: 761px;
+    background-color: #F3F3F3;
+
+}
+.botoes{
+    display: flex;
+    padding: 14px;
+
+}
+.letras{
+    position: relative;
+    left: 5px;
+
+    font-size: 18px;
+    color: black;
+
+}
+.barras{
+    width: 225px;
+    height: 1px;
+    background-color: #a7a4a4;
 }
