@@ -404,6 +404,18 @@
         font-size: 20px;
     }
 
+
+
+
+
+
+    /* MENU */
+
+
+
+
+
+
     #bodymenu{
         width: 245px;
         height: 852px;
@@ -483,6 +495,52 @@
         width: 225px;
         height: 1px;
         background-color: #a7a4a4;
+    }
+    /* MAPA */
+    #mapabody {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Kanit', sans-serif;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: white;
+    transition: right 0.4s ease;
+    z-index: 1000;
+    }
+    #mapabody.active{
+        right: 0;
+    }
+    #headermapa{
+        height: 90px;
+        width: 393px;
+        background-color: var(--cor-vermelha);
+        display: flex;
+        align-items: flex-end;
+        
+        
+    }
+    #elementosheader:nth-child(1){
+        padding-left: 15px;
+        padding-bottom: 17px;
+        padding-right: 9px;
+    }
+
+    #setamapa{
+        width: 20px;
+        height: 20px;
+    }
+
+    #logomapa{
+        width: 27px;
+        height: 24px;
+
+    }
+    #mapa{
+        position: relative;
+        right: 3px;
+        width: 394px;
+        height: 591px;
     }
          
 }

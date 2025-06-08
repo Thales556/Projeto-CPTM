@@ -4,7 +4,9 @@ document.addEventListener("DOMContentLoaded", function(){
     const abrirperfil = document.getElementById('foto_perfil');
     const perfiltodo = document.getElementById('bodyperfil');
     const backdrop = document.getElementById('backdrop');
-    
+    const irmapa = document.getElementById('botaomapa');
+    const mapalinhas = document.getElementById('mapabody')
+    const setamapavoltarmenu = document.getElementById('setamapa')
 
 
 
@@ -40,5 +42,15 @@ document.addEventListener("DOMContentLoaded", function(){
         backdrop.classList.remove('active');
     }
     })
+
+    irmapa.addEventListener('click', function(event){
+        event.stopImmediatePropagation();
+        mapalinhas.classList.add('active')
+    })
+    document.addEventListener('click', function(event){
+        if(event.target == setamapavoltarmenu)
+            mapalinhas.classList.remove('active')
+    })
+
 
 })

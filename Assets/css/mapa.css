@@ -14,6 +14,9 @@
         width: 393;
         height: 852px;
         font-family: 'Kanit', sans-serif;
+        position: fixed;
+        top: 0;
+        right: 0;
     }
     #headermapa{
         height: 90px;
