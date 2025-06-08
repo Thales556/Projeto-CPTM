@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    border: 0;
+}
+:root{
+    --cor-vermelha: #E41717;
+    --cor-branca: #ffffff;
+    --cor-preta: black;
+    --cor-footer: #C9C9C9;
+}
+
+@media screen and (max-width: 393px){
+    #mapabody{
+        width: 393;
+        height: 852px;
+        font-family: 'Kanit', sans-serif;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+    #headermapa{
+        height: 90px;
+        width: 393px;
+        background-color: var(--cor-vermelha);
+        display: flex;
+        align-items: flex-end;
+        
+        
+    }
+    #elementosheader:nth-child(1){
+        padding-left: 15px;
+        padding-bottom: 17px;
+        padding-right: 9px;
+    }
+
+    #seta{
+        width: 20px;
+        height: 20px;
+    }
+
+    #logo{
+        width: 27px;
+        height: 24px;
+
+    }
+    #mapa{
+        width: 394px;
+        height: 591px;
+    }
+}
