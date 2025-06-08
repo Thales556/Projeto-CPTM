@@ -503,7 +503,7 @@
     font-family: 'Kanit', sans-serif;
     position: fixed;
     top: 0;
-    right: -100%;
+    right: -110%;
     background-color: white;
     transition: right 0.4s ease;
     z-index: 1000;
