@@ -9,11 +9,12 @@
     --cor-footer: #C9C9C9;
 }
 @media screen and (max-width: 393px) {
-    body{
+    
+    #homebody{
         height: 852px;
         font-family: 'Kanit', sans-serif;
     }
-    header{
+    #headerbody{
         height: 90px;
         width: 393px;
         background-color: var(--cor-vermelha);
@@ -116,8 +117,6 @@
         display: flex;
         align-items: center;
         background-color: black;
-        width: 148px;
-        height: 26px;
     }
     #deposit{
         position: relative;
@@ -202,7 +201,7 @@
         width: 358px;
         height: 1px;
     }
-    footer{
+    #footerhome{
         position: relative;
         background-color: #c9c9c9;
         width: 393px;
@@ -226,5 +225,241 @@
     #imgfooter1{position: relative;}
     #imgfooter2{position: relative; left: 10px; top: 2px;}
     #imgfooter3{position: relative; top: 15px;}
+    
+    a{
+        display: inline-block;
+        text-decoration: none;
+    }
+    #bodyperfil{
+    width: 393px;
+    height: 683px;
+    position: absolute;
+    bottom: 0;
+    background-color: #f3f3f3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid #e6e2e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    
+    }
+    #headerperfil{
+        align-self: stretch;
+        padding: 11px;
+        display: flex ;
+        justify-content: space-between ;
+    }
+    #x{
+        width: 16px;
+        height: 16px;
+    }
 
+    #compartilhar{
+        width: 34px;
+        height: 23.8px;
+
+    }
+
+    #sino{
+        width: 24px;
+        height: 27.43px;
+        padding-right: 3px;
+        padding-top: 2px;
+        padding-left: 9px;
+
+    }
+    #perfileinfo{
+        position: relative;
+        right: 60px;
+        bottom: 25px;
+        display: flex;
+
+    }
+    #infopessoa{
+        position: relative;
+        left: 20px;
+        top: 10px;
+
+    }
+    #fotoperfil{
+        width: 63px;
+        height: 63px;
+    
+    }
+
+    #nome{
+        font-family: 'Jockey One', sans-serif;
+        font-size: 20px;
+
+    }
+    #email{
+        font-family: 'Jockey One', sans-serif;
+        font-size: 18px;
+        color: #3f3c3c;
+    }
+    .barras2{
+        position: relative;
+        bottom: 20px;
+        width: 358px;
+        height: 1px;
+        background-color: #a7a4a4;
+    }
+    .letras1{
+        font-family: 'Kanit', sans-serif;
+        font-size: 20px;
+        color: black;
+        position: relative;
+        top: 2px;
+    }
+    .letras2{
+        font-family: 'Kanit', sans-serif;
+        font-size: 12px;
+        color: #3f3c3c;
+    }
+    .bolapreta{
+        background-color: black;
+        border-radius: 100%;
+        width: 24px;
+        height: 24px;
+    }
+    #lapis{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        bottom: 22px;
+        left: 2px;
+    }
+    #edit{
+        position: relative;
+        right: 185px;
+        top: 40px;
+    }
+    .divicones:nth-child(1){
+        padding-left: 9px;
+        padding-top: 14px;
+        padding-bottom: 9px;
+        
+    }
+    .divicones:nth-child(2){
+        padding-left: 12px;
+        padding-top: 15px;
+        padding-bottom: 13px;
+    }
+    .icones{
+        width: 40px;
+        height: 40px;
+    }
+    .botoes{
+        
+        width: 335px;
+        height: 63px;
+        background-color: #e4e4e4;
+        display: flex;
+        gap: 16px;
+        border-radius:12px ;
+        
+    }
+    .todosbotoes{
+        
+        padding-top: 30px;
+        
+    }
+    #botao2{
+        position: relative;
+        top: 30px;
+    }
+    #footerperfil{
+        position: absolute;
+        bottom: 0;
+        width: 393px;
+        height: 126px;
+    }
+    #sair{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #sairapp{
+        background-color: #e4e4e4;
+        width: 335px;
+        height: 63px;
+        border-radius:12px ;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #setavoltar{
+        width: 35px;
+        height: 25.61px ;
+    }
+    #letras3{
+        font-family: 'Kanit', sans-serif;
+        font-size: 20px;
+    }
+    
+    #bodymenu{
+        width: 245px;
+        height: 852px;
+        position: absolute;
+        top: 0;
+        right: 0; 
+        display: none;
+    }
+    #headermenu{
+        display: flex;
+        align-items: flex-end;
+        width: 245px;
+        height: 90px;
+        background-color: white;
+
+
+    }
+    #itensheader{
+        padding: 12px;
+        display: flex;
+        align-items: flex-end;
+
+    }
+    #imgheader{
+        width: 40px;
+        height: 40px;
+
+    }
+    #nome{
+        padding-left: 10px;
+        font-size: 20px;
+        font-family: 'Jockey One', sans-serif;
+
+    }
+    .imagensopcoes{
+        width: 25px;
+        height: 25px;
+    }
+    .opcoes{
+        width: 245px;
+        height: 761px;
+        background-color: #F3F3F3;
+
+    }
+    .botoesmenu{
+        display: flex;
+        padding: 14px;
+
+    }
+    .letras{
+        position: relative;
+        left: 5px;
+        font-family: 'Kanit', sans-serif;
+        font-size: 18px;
+        color: black;
+
+    }
+    .barras3{
+        width: 225px;
+        height: 1px;
+        background-color: #a7a4a4;
+    }
+         
 }
